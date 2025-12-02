@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        ms: {
+          primary: "hsl(var(--ms-primary))",
+          "primary-hover": "hsl(var(--ms-primary-hover))",
+          background: "hsl(var(--ms-background))",
+          text: "hsl(var(--ms-text))",
+          "text-secondary": "hsl(var(--ms-text-secondary))",
+        },
+      },
+      boxShadow: {
+        ms: "0 2px 6px rgba(0, 0, 0, 0.2)",
       },
       borderRadius: {
         lg: "var(--radius)",
